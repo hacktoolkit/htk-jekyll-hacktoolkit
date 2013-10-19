@@ -19,7 +19,7 @@ if [[ ${ALL} ]];
 then
     # compile all
     echo "Compiling all *.less files"
-    FILES=`find . -name "*.less"`
+    FILES=`find . -name "*.less" | grep -v "_imports/"`
 else
     # compile deltas
     echo "Compiling modified *.less files"
