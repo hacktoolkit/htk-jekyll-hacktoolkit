@@ -23,7 +23,7 @@ then
 else
     # compile deltas
     echo "Compiling modified *.less files"
-    FILES=`git status | grep "\.less" | awk '{ print $3 }'`
+    FILES=`git status | grep "\.less" | awk '{ print $3 }' | grep -v "_imports/"`
 fi
 
 for INFILE in $FILES
