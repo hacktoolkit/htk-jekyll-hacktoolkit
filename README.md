@@ -3,7 +3,7 @@ htk-jekyll-hacktoolkit
 
 This is a static HTML5 and mobile responsive skeleton.
 
-See this in action at <http://hacktoolkit.github.io/htk-jekyll-hacktoolkit>
+See this in action at <http://hacktoolkit.github.io/htk-jekyll-hacktoolkit> (reflects the code in the `gh-pages` branch).
 
 Uses:
 
