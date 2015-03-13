@@ -4,13 +4,15 @@ title: Your New Jekyll Site
 ---
 
 <div class="pure-g">
-  <div class="pure-u-1-5 bg-orange">
+  <div class="pure-u-1 pure-u-md-1-5 bg-orange">
     <h3>{{ page.title }}</h3>
     <h5>1/5 column</h5>
   </div>
-  <div class="pure-u-4-5 bg-blue">
+  <div class="pure-u-1 pure-u-md-4-5 bg-blue" style="padding: 50px; box-sizing: border-box;">
     <h5>4/5 column</h5>
-    {% include fragments/htk/features.html %}
-    {% include fragments/htk/getting_started.html %}
+    <div class="align-left bg-white rounded-10" style="padding: 50px;">
+      {% capture README %}{% include_relative README.md %}{% endcapture %}
+      {{ README | markdownify }}
+    </div>
   </div>
 </div>

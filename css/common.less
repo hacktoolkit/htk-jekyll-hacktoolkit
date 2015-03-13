@@ -1,9 +1,36 @@
+@import "_imports/mixins.less";
 @import "_imports/colors.less";
 
+.hidden {
+    display: none;
+}
+
+.bg-white {
+    background-color: @white;
+}
+.bg-black {
+    background-color: @black;
+}
 .bg-orange {
     background-color: @orange;
 }
 
 .bg-blue {
     background-color: @blue;
+}
+
+.show-hover {
+    visibility: hidden;
+}
+
+.rounded, .rounded-10, .rounded-medium {
+    .rounded-base(1);
+}
+
+.align-left {
+    text-align: left;
+}
+
+.align-right {
+    text-align: right;
 }

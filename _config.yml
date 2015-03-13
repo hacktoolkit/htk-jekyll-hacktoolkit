@@ -1,3 +1,26 @@
 name: Your New Jekyll Site
 markdown: redcarpet
 pygments: true
+
+copyright:
+  author: Acme Inc
+  year: 2015
+
+hacktoolkit:
+  credits: true
+
+libs:
+  css:
+    pure: 0.6.0
+
+api:
+  google:
+    maps:
+  parse:
+    app_id:
+    js_key:
+  rollbar:
+    access_token:
+
+fonts:
+  google: Cabin+Condensed:400,500,600,700
