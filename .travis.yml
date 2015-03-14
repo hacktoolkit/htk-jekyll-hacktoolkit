@@ -11,4 +11,6 @@ node_js:
   - "iojs"
   - "0.12"
 
+script: "bundle exec jekyll build"
+
 sudo: false
