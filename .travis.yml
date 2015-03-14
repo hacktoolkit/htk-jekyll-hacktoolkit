@@ -5,4 +5,10 @@
 git:
   depth: 10
 
+language: node_js
+
+node_js:
+  - "iojs"
+  - "0.12"
+
 sudo: false
