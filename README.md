@@ -1,40 +1,41 @@
-htk-jekyll-hacktoolkit
-======================
+# htk-jekyll-hacktoolkit
+
+[![Build Status](https://travis-ci.org/hacktoolkit/htk-jekyll-hacktoolkit.svg)](https://travis-ci.org/hacktoolkit/htk-jekyll-hacktoolkit)
 
 This is a static HTML5 and mobile responsive skeleton.
 
 See this in action at <http://hacktoolkit.github.io/htk-jekyll-hacktoolkit> (reflects the code in the `gh-pages` branch).
 
-# Features
+## Features
 
 We've packed in a lot of features into `htk-jekyll-hacktoolkit` that we
 feel should be a part of every project.
 
-## Javascript Libraries
+### Javascript Libraries
 
 - [YUI](http://yuilibrary.com)
 - [Parse](http://parse.com)
 
-## CSS Libraries
+### CSS Libraries
 - [Pure.CSS](http://purecss.io)
 
-## CSS Precompiler
+### CSS Precompiler
 - [LESS](http://lesscss.org/)
 
-## Font Libraries/Icon Fonts
+### Font Libraries/Icon Fonts
 - [Google Fonts](http://google.com/fonts)
 - [Font Awesome](http://fontawesome.io)
 
-## Monitoring/Error Tracking
+### Monitoring/Error Tracking
 - [Rollbar](http://rollbar.com)
 
-## Other APIs and goodies:
+### Other APIs and goodies:
 - Facebook APIs and Apps <https://developers.facebook.com/>
 - Twitter <http://developer.twitter.com>
 - [Google Maps](https://developers.google.com/maps/web/) ([JS API](https://developers.google.com/maps/documentation/javascript/?csw=1))
 - Google Translate / [Website Translator](http://translate.google.com/manager/website/suggestions)
 
-# Getting Started
+## Getting Started
 
 The best way to get started using `htk-jekyll-hacktoolkit` is to clone
 the repository and then delete the remote.  
