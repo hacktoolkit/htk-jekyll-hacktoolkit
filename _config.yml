@@ -1,6 +1,6 @@
 name: Your New Jekyll Site
 markdown: redcarpet
-pygments: true
+highlighter: pygments
 
 copyright:
   author: Acme Inc
