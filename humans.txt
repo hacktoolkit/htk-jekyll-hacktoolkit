@@ -1,0 +1,15 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+    Jonathan Tsai -- Creator of Hacktoolkit -- @jontsai
+
+# THANKS
+
+    <name>
+
+# TECHNOLOGY COLOPHON
+
+    CSS3, HTML5
+    Jekyll, Pure.CSS, YUI, jQuery, Lodash

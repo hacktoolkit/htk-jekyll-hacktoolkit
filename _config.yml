@@ -4,11 +4,15 @@ highlighter: pygments
 exclude: [vendor]
 
 copyright:
-  author: Acme Inc
+  author: Hacktoolkit
   year: 2015
 
-hacktoolkit:
+htk:
   credits: true
+
+meta:
+  description: Jekyll Hacktoolkit. HTML5 Boilerplate inspired. Opinionated framework.
+  keywords: hacktoolkit,htk,jekyll,html5,css3
 
 libs:
   css:

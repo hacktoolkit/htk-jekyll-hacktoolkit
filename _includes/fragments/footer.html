@@ -1,5 +1,11 @@
 <footer>
   <div id="footer">
-    Built with help from <a href="http://hacktoolkit.com">Hacktoolkit</a>
+    <div class="inner">
+      &copy; {{ site.copyright.author }} {{ site.copyright.year }}
+      {% if site.htk.credits %}
+      <br/>
+      with help from <a href="http://hacktoolkit.com">Hacktoolkit</a>
+      {% endif %}
+    </div>
   </div>
 </footer>

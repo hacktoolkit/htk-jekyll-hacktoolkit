@@ -3,8 +3,8 @@
   <head>
     <meta charset="utf-8">
 
-    <title>{{ page.title }}</title>
-    <meta name="description" content="{{ page.title }}">
+    {% include fragments/page_title.html %}
+    {% include fragments/meta.html %}
     <meta name="viewport" content="width=device-width">
 
     {% include fragments/css/common.html %}
@@ -25,7 +25,6 @@
     </div>
 
     {% include fragments/footer.html %}
-
     {% include fragments/js/nonblocking.html %}
   </body>
 
