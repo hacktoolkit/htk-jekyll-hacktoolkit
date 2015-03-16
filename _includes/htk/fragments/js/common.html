@@ -1,4 +1,6 @@
+{% if site.api.rollbar.access_token %}
 {% include htk/fragments/js/rollbar.html %}
+{% endif %}
 <script src="//yui.yahooapis.com/{{ site.libs.js.yui }}/build/yui/yui-min.js"></script>
 <script type="text/javascript" src="http://www.parsecdn.com/js/parse-{{ site.libs.js.parse }}.min.js"></script>
 
