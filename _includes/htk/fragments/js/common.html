@@ -2,16 +2,9 @@
 <script src="//yui.yahooapis.com/{{ site.libs.js.yui }}/build/yui/yui-min.js"></script>
 <script type="text/javascript" src="http://www.parsecdn.com/js/parse-{{ site.libs.js.parse }}.min.js"></script>
 
-{% if site.api.google.maps %}
-<!--<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=YOUR_GOOGLE_API_KEY&sensor=TRUE_OR_FALSE"></script>-->
-<!--<script type="text/javascript" src="js/google_maps.js"></script>-->
-
-<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key={{ site.api.google.maps }}&sensor=true"></script>
-{% endif %}
-
-<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js"></script>
-<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/lodash.js/3.4.0/lodash.min.js"></script>
-<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/backbone.js/1.1.2/backbone-min.js"></script>
+<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery/{{ site.libs.js.jquery }}/jquery.min.js"></script>
+<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jqueryui/{{ site.libs.js.jqueryui }}/jquery-ui.min.js"></script>
+<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/lodash.js/{{ site.libs.js.lodash }}/lodash.min.js"></script>
+<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/backbone.js/{{ site.libs.js.backbone }}/backbone-min.js"></script>
 {% include htk/fragments/js/constants.html %}
 {% include htk/fragments/js/templates/all.html %}

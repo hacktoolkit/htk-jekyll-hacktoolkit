@@ -1,0 +1,3 @@
+[submodule "js/htk"]
+	path = js/htk
+	url = git@github.com:hacktoolkit/htk.js.git

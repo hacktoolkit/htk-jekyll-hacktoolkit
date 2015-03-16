@@ -12,4 +12,11 @@ var FACEBOOK_APP_ID = '{{ site.api.facebook.app_id }}';
 {% else %}
 var FACEBOOK_APP_ID = undefined;
 {% endif %}
+
+{% if site.api.google.maps.key %}
+var DEFAULT_GMAP_LAT = {{ site.api.google.maps.default_lat }};
+var DEFAULT_GMAP_LNG = {{ site.api.google.maps.default_lng }};
+var DEFAULT_GMAP_ZOOM = {{ site.api.google.maps.default_zoom }};
+var GMAP_CONTAINER = {{ site.api.google.maps.container }};
+{% endif %}
 </script>
