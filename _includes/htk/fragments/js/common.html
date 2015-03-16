@@ -2,11 +2,13 @@
 {% include htk/fragments/js/rollbar.html %}
 {% endif %}
 <script src="//yui.yahooapis.com/{{ site.libs.js.yui }}/build/yui/yui-min.js"></script>
-<script type="text/javascript" src="http://www.parsecdn.com/js/parse-{{ site.libs.js.parse }}.min.js"></script>
-
 <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery/{{ site.libs.js.jquery }}/jquery.min.js"></script>
 <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jqueryui/{{ site.libs.js.jqueryui }}/jquery-ui.min.js"></script>
 <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/lodash.js/{{ site.libs.js.lodash }}/lodash.min.js"></script>
 <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/backbone.js/{{ site.libs.js.backbone }}/backbone-min.js"></script>
 {% include htk/fragments/js/constants.html %}
+{% if site.api.parse.app_id and site.api.parse.js_key %}
+<script type="text/javascript" src="http://www.parsecdn.com/js/parse-{{ site.libs.js.parse }}.min.js"></script>
+<script type="text/javascript" src="js/htk/parse/init.js"></script>
+{% endif %}
 {% include htk/fragments/js/templates/all.html %}
