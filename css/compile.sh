@@ -19,11 +19,11 @@ if [[ ${ALL} ]];
 then
     # compile all
     echo "Compiling all *.less files"
-    FILES=`find . -name "*.less" | grep -v "_imports/"`
+    FILES=`find . -name "*.less" | grep -v "_imports/" | grep -v "htk/"`
 else
     # compile deltas
     echo "Compiling modified *.less files"
-    FILES=`git status -s | grep "\.less" | awk '{ print $2 }' | grep -v "_imports/"`
+    FILES=`git status -s | grep "\.less" | awk '{ print $2 }' | grep -v "_imports/" | grep -v "htk/"`
 fi
 
 for INFILE in $FILES
