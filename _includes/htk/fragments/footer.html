@@ -1,7 +1,7 @@
 <footer>
   <div id="footer">
     <div class="inner">
-      &copy; {{ site.copyright.author }} {{ site.copyright.year }}
+      &copy; {% if site.copyright.url %}<a href="{{ site.copyright.url }}">{% endif %}{{ site.copyright.author }}{% if site.copyright.url %}</a>{% endif %} {{ site.copyright.year }}
       {% if site.htk.credits %}
       <br/>
       with help from <a href="http://hacktoolkit.com">Hacktoolkit</a>

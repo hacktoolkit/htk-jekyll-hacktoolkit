@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+
+    {% include htk/fragments/page_title.html %}
+    {% include htk/fragments/meta.html %}
+    <meta name="viewport" content="width=device-width">
+
+    {% include htk/fragments/css/common.html %}
+    {% include htk/fragments/js/common.html %}
+  </head>
+
+  <body>
+    <div id="fb-root"></div>
+    <script src="js/facebook.js"></script>
+
+    <div id="wrap">
+      {% include htk/fragments/header.html %}
+
+      <div id="main">
+        {{ content }}
+      </div>
+    </div>
+
+    {% include htk/fragments/footer.html %}
+    {% include htk/fragments/js/nonblocking.html %}
+  </body>
+
+</html>

@@ -1,0 +1,15 @@
+<script type="text/javascript">
+{% if site.api.parse.app_id and site.api.parse.js_key %}
+var PARSE_APPLICATION_ID = '{{ site.api.parse.app_id }}';
+var PARSE_JS_KEY = '{{ site.api.parse.js_key }}';
+{% else %}
+var PARSE_APPLICATION_ID = undefined;
+var PARSE_JS_KEY = undefined;
+{% endif %}
+
+{% if site.api.facebook.app_id %}
+var FACEBOOK_APP_ID = '{{ site.api.facebook.app_id }}';
+{% else %}
+var FACEBOOK_APP_ID = undefined;
+{% endif %}
+</script>

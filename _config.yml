@@ -5,6 +5,7 @@ exclude: [vendor]
 
 copyright:
   author: Hacktoolkit
+  url: http://www.hacktoolkit.com
   year: 2015
 
 htk:
@@ -17,8 +18,13 @@ meta:
 libs:
   css:
     pure: 0.6.0
+  js:
+    parse: 1.3.5
+    yui: 3.18.1
 
 api:
+  facebook:
+    app_id:
   google:
     maps:
   parse:

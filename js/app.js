@@ -1,6 +1,6 @@
-var PARSE_APPLICATION_ID = "YOUR_PARSE_APP_ID";
-var PARSE_JS_KEY = "YOUR_PARSE_JS_KEY";
-Parse.initialize(PARSE_APPLICATION_ID, PARSE_JS_KEY);
+if (PARSE_APPLICATION_ID && PARSE_JS_KEY) {
+    Parse.initialize(PARSE_APPLICATION_ID, PARSE_JS_KEY);
+}
 
 /*
   var TestObject = Parse.Object.extend("TestObject");

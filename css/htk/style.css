@@ -23,3 +23,9 @@
   background-color: #000000;
   color: #ffffff;
 }
+#footer a {
+  color: #ffffff;
+}
+#footer a:hover {
+  color: #ffffff;
+}

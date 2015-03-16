@@ -239,14 +239,14 @@ body {
 }
 #main {
   overflow: auto;
-  padding-bottom: 30px;
+  padding-bottom: 45px;
   /* must be same height as the footer */
 }
 #footer {
   position: relative;
-  margin-top: -30px;
+  margin-top: -45px;
   /* negative value of footer height */
-  height: 30px;
+  height: 45px;
   clear: both;
 }
 /*Opera Fix*/
@@ -339,5 +339,11 @@ body:before {
 }
 #footer {
   background-color: #000000;
+  color: #ffffff;
+}
+#footer a {
+  color: #ffffff;
+}
+#footer a:hover {
   color: #ffffff;
 }
