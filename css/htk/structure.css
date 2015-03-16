@@ -9,12 +9,11 @@
 #header .header-right {
   text-align: right;
 }
+#wrap {
+  min-height: 100%;
+}
 #main {
   text-align: center;
-}
-#main #map_canvas {
-  height: 100%;
-  width: 100%;
 }
 #footer {
   text-align: center;
