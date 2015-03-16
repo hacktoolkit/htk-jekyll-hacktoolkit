@@ -3,8 +3,8 @@
 <script type="text/javascript" src="js/htk/google_maps.js"></script>
 {% endif %}
 {% for site_js in site.htk.javascripts %}
-{% include_relative {{ site_js }} %}
+<script type="text/javascript" src="{{ site_js }}"></script>
 {% endfor %}
 {% for page_js in page.javascripts %}
-{% include_relative {{ page_js }} %}
+<script type="text/javascript" src="{{ page_js }}"></script>
 {% endfor %}
