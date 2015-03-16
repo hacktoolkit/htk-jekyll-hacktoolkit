@@ -10,6 +10,8 @@ copyright:
 
 htk:
   credits: true
+  mobile: true
+  show_footer: true
 
 meta:
   description: Jekyll Hacktoolkit. HTML5 Boilerplate inspired. Opinionated framework.
@@ -17,14 +19,15 @@ meta:
 
 libs:
   css:
+    jqueryui: 1.11.3
     pure: 0.6.0
   js:
-    parse: 1.3.5
-    yui: 3.18.1
+    backbone: 1.1.2
     jquery: 2.1.3
     jqueryui: 1.11.2
     lodash: 3.4.0
-    backbone: 1.1.2
+    parse: 1.3.5
+    yui: 3.18.1
 
 api:
   facebook:
