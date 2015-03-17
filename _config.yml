@@ -35,6 +35,7 @@ api:
     app_id:
   google:
     maps:
+      init: false
       key:
       sensor: true
       default_lat: -34.397
