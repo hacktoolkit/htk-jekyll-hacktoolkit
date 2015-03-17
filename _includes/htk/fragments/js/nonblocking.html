@@ -1,7 +1,10 @@
 {% if site.api.google.maps.key %}
 <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key={{ site.api.google.maps.key }}&sensor={{ site.api.google.maps.sensor }}"></script>
-<script type="text/javascript" src="js/htk/google_maps.js"></script>
+{% if site.api.google.maps.init %}
+<script type="text/javascript" src="js/htk/google/maps/init.js"></script>
 {% endif %}
+{% endif %}
+{% include htk/fragments/js/parse.html %}
 {% for site_js in site.htk.javascripts %}
 <script type="text/javascript" src="{{ site_js }}"></script>
 {% endfor %}
