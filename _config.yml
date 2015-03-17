@@ -13,6 +13,7 @@ htk:
   mobile: true
   show_footer: true
   javascripts:
+  templates:
 
 meta:
   description: Jekyll Hacktoolkit. HTML5 Boilerplate inspired. Opinionated framework.

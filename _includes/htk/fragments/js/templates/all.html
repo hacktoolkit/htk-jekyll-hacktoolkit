@@ -1,0 +1,6 @@
+{% for site_template in site.htk.templates %}
+{% include {{ site_template }} %}
+{% endfor %}
+{% for page_template in page.templates %}
+{% include {{ page_template }} %}
+{% endfor %}
