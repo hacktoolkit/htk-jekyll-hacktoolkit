@@ -265,6 +265,28 @@ body:before {
 /* this is a maroon */
 /* this is a light blue */
 /* http://flatuicolors.com/ */
+.hidden {
+  display: none;
+}
+.show-hover {
+  visibility: hidden;
+}
+.rounded,
+.rounded-10,
+.rounded-medium {
+  -webkit-border-radius: 0.625em;
+  /* Safari prototype */
+  -moz-border-radius: 0.625em;
+  /* Gecko browsers */
+  border-radius: 0.625em;
+  /* Everything else - limited support at the moment */
+}
+.align-left {
+  text-align: left;
+}
+.align-right {
+  text-align: right;
+}
 .bg-white {
   background-color: #ffffff;
 }
@@ -408,28 +430,6 @@ body:before {
 }
 .fg-flatui-asbestos {
   color: #7f8c8d;
-}
-.hidden {
-  display: none;
-}
-.show-hover {
-  visibility: hidden;
-}
-.rounded,
-.rounded-10,
-.rounded-medium {
-  -webkit-border-radius: 0.625em;
-  /* Safari prototype */
-  -moz-border-radius: 0.625em;
-  /* Gecko browsers */
-  border-radius: 0.625em;
-  /* Everything else - limited support at the moment */
-}
-.align-left {
-  text-align: left;
-}
-.align-right {
-  text-align: right;
 }
 #header {
   height: 30px;
