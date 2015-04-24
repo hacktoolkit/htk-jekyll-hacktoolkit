@@ -1,6 +1,6 @@
 [submodule "js/htk"]
 	path = js/htk
-	url = git@github.com:hacktoolkit/htk.js.git
+	url = https://github.com/hacktoolkit/htk.js.git
 [submodule "css/htk"]
 	path = css/htk
-	url = git@github.com:hacktoolkit/htk-css-hacktoolkit.git
+	url = https://github.com/hacktoolkit/htk-css-hacktoolkit.git
