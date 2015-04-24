@@ -277,6 +277,18 @@ body:before {
 .bg-blue {
   background-color: #0000ff;
 }
+.fg-white {
+  color: #ffffff;
+}
+.fg-black {
+  color: #000000;
+}
+.fg-orange {
+  color: #ffa500;
+}
+.fg-blue {
+  color: #0000ff;
+}
 .bg-flatui-turquoise {
   background-color: #1abc9c;
 }
