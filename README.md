@@ -1,5 +1,7 @@
 # htk-jekyll-hacktoolkit
 
+[![Join the chat at https://gitter.im/hacktoolkit/htk-jekyll-hacktoolkit](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/hacktoolkit/htk-jekyll-hacktoolkit?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 [![Build Status](https://travis-ci.org/hacktoolkit/htk-jekyll-hacktoolkit.svg)](https://travis-ci.org/hacktoolkit/htk-jekyll-hacktoolkit)
 
 This is a static HTML5 and mobile responsive skeleton.
